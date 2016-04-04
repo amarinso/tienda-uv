@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="tienda.css"></link>
+	<script src="jquery-2.2.2.js"></script>
+	<script src="tienda.js"></script>
+	<body>
+		<h1>Tienda<b>UV</b></h1>
+		<nav>
+			<div id="opciones">
+				<a href="#">Tienda</a>
+				<a href="#">Usuario</a>
+			</div>
+			<a href="#" id="carritoResumen">
+				<span id="productos"><span id="totalProductos">2</span> Productos</span>
+				<span class="total">8</span>
+			</a>
+			<div id="carrito">
+				<div id="productosCarrito"></div>
+				<div class="total"><span>Total:</span>8</div>
+			</div>
+		</nav>
+		<div id="articulos">
+			<article id="articulo1" data-id="1">
+				<img height="130px" width="120px" src="https://placeholdit.imgix.net/~text?txtsize=14&txt=producto1&w=120&h=130"/>
+				<div class="nombre">Producto 1</div>
+				<div class="precio" >2.2</div>
+				<div class="cantidad"><input type="number" value="1" size="4"><a href="#">Añadir</button></a>
+			</article>
+			<article id="articulo2" data-id="2">
+				<img height="130px" width="120px" src="https://placeholdit.imgix.net/~text?txtsize=14&txt=producto2&w=120&h=130"/>
+				<div class="nombre">Producto 2</div>
+				<div class="precio" >1.2</div>
+				<div class="cantidad"><input type="number" value="1" size="4"><a href="#">Añadir</button></a>
+			</article>
+			<article id="articulo3" data-id="3">
+				<img height="130px" width="120px" src="https://placeholdit.imgix.net/~text?txtsize=14&txt=producto3&w=120&h=130"/>
+				<div class="nombre">Producto 3</div>
+				<div class="precio" >3.4</div>
+				<div class="cantidad"><input type="number" value="1" size="4"><a href="#">Añadir</button></a>
+			</article>
+			<article id="articulo4" data-id="4">
+				<img height="130px" width="120px" src="https://placeholdit.imgix.net/~text?txtsize=14&txt=producto4&w=120&h=130"/>
+				<div class="nombre">Producto 4</div>
+				<div class="precio" >1</div>
+				<div class="cantidad"><input type="number" value="1" size="4"><a href="#">Añadir</button></a>
+			</article>
+			<article id="articulo5" data-id="5">
+				<img height="130px" width="120px" src="https://placeholdit.imgix.net/~text?txtsize=14&txt=producto5&w=120&h=130"/>
+				<div class="nombre">Producto 5</div>
+				<div class="precio" >0.89</div>
+				<div class="cantidad"><input type="number" value="1" size="4"><a href="#">Añadir</button></a>
+			</article>
+			<article id="articulo6">
+				<img height="130px" width="120px" src="https://placeholdit.imgix.net/~text?txtsize=14&txt=producto6&w=120&h=130"/>
+				<div class="nombre">Producto 6</div>
+				<div class="precio" >2.22</div>
+				<div class="cantidad"><input type="number" value="1" size="4"><a href="#">Añadir</button></a>
+			</article>
+		</div>
+	</body>
+</html>
